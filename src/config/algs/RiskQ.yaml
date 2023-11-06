@@ -1,0 +1,46 @@
+action_selector: "epsilon_greedy"
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_anneal_time: 100000
+runner: "episode"
+buffer_size: 5000
+
+target_update_interval: 200
+agent_output_type: "q"
+learner: "riskq_learner" 
+double_q: True  
+mixer: "riskq"
+mixing_embed_dim: 32
+hypernet_layers: 2
+hypernet_embed: 64
+negative_abs: True
+
+mac: "risk_mac" 
+
+optimizer: "RMSProp" 
+quantile_embed_dim: 64 
+n_quantiles: 32
+n_target_quantiles: 32 
+n_approx_quantiles: 32 
+
+n_query_embedding_layer1: 32  
+n_query_embedding_layer2: 16  
+n_key_embedding_layer1: 16   
+n_head_embedding_layer1: 32  
+n_head_embedding_layer2: 1   
+n_attention_head: 1          
+n_constrant_value: 16        
+type: "weighted"
+agent_own_state_size: True
+
+td_lambda: 0.6
+lr: 0.001  
+
+central_loss: 1
+qmix_loss: 1
+agent: "qrdqn_rnn"
+risk_type: "wang"
+risk_param: 0.75
+masked_out_quantiles: False
+sort_quantiles: True
+name: "RiskQ" 

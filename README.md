@@ -34,11 +34,15 @@ If you use RiskQ in your research, please cite our paper:
 @misc{shen2023riskq,
       title={RiskQ: Risk-sensitive Multi-Agent Reinforcement Learning Value Factorization}, 
       author={Siqi Shen and Chennan Ma and Chao Li and Weiquan Liu and Yongquan Fu and Songzhu Mei and Xinwang Liu and Cheng Wang},
-      year={2023},
-      eprint={2311.01753},
-      archivePrefix={arXiv},
-      primaryClass={cs.MA}
+      booktitle = {Advances in Neural Information Processing Systems},
+      editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+      pages = {34791--34825},
+      publisher = {Curran Associates, Inc.},
+      url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/6d3040941a2d57ead4043556a70dd728-Paper-Conference.pdf},
+      volume = {36},
+      year={2023}
 }
+
 ```
 
 

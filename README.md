@@ -2,7 +2,7 @@
 
 -----
 
-RiskQ (https://arxiv.org/abs/2311.01753) is a novel Multi-Agent Reinforcement Learning method that adheres to the Risk-sensitive Individual-Global-Max (RIGM) principle, enabling effective coordination of risk-sensitive policies among agents, with its proven performance and source code publicly accessible.
+RiskQ (https://proceedings.neurips.cc/paper_files/paper/2023/file/6d3040941a2d57ead4043556a70dd728-Paper-Conference.pdf) is a novel Multi-Agent Reinforcement Learning method that adheres to the Risk-sensitive Individual-Global-Max (RIGM) principle, enabling effective coordination of risk-sensitive policies among agents, with its proven performance and source code publicly accessible.
 
 
 
